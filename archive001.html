@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Archive 001 | Space Blue</title>
 
 <style>
@@ -24,7 +23,7 @@ body{
 
 .container{
     width:90%;
-    max-width:760px;
+    max-width:800px;
     margin:auto;
     padding:100px 0;
 }
@@ -32,102 +31,95 @@ body{
 .archive-number{
     font-family:'Bebas Neue',sans-serif;
     font-size:1.4rem;
-    letter-spacing:3px;
+    letter-spacing:4px;
     opacity:.6;
     margin-bottom:15px;
 }
 
 h1{
     font-family:'Bebas Neue',sans-serif;
-    font-size:5rem;
+    font-size:4rem;
     font-weight:400;
-    line-height:1;
-    margin-bottom:15px;
+    margin-bottom:10px;
 }
 
 .date{
     opacity:.5;
-    margin-bottom:80px;
+    margin-bottom:20px;
 }
 
 .intro{
-    line-height:1.9;
     opacity:.8;
-    margin-bottom:80px;
-}
-
-.divider{
-    height:1px;
-    background:rgba(255,255,255,.12);
-    margin:50px 0;
-}
-
-.type{
-    font-family:'Bebas Neue',sans-serif;
-    font-size:1.1rem;
-    letter-spacing:2px;
-    margin-bottom:12px;
-    opacity:.7;
-}
-
-.title{
-    font-size:1.7rem;
-    margin-bottom:10px;
-}
-
-.note{
-    line-height:1.9;
-    opacity:.8;
-}
-
-.quote{
-    text-align:center;
-    font-size:2rem;
     line-height:1.8;
-    margin-top:100px;
+    margin-bottom:50px;
 }
 
-.footer{
-    margin-top:100px;
-    text-align:center;
-    opacity:.3;
-    font-family:'Bebas Neue',sans-serif;
-    letter-spacing:4px;
-}
-
-@media (max-width:768px){
-
-    h1{
-        font-size:3.5rem;
-    }
-
-    .quote{
-        font-size:1.4rem;
-    }
-}
 .card{
+    background:rgba(255,255,255,.03);
     border:1px solid rgba(255,255,255,.12);
-    border-radius:16px;
-    padding:30px;
+    border-radius:18px;
+    overflow:hidden;
     margin-bottom:40px;
+}
+
+.card img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+    display:block;
+}
+
+.card-content{
+    padding:30px;
 }
 
 .card-type{
     font-family:'Bebas Neue',sans-serif;
-    font-size:1.1rem;
     letter-spacing:3px;
     opacity:.6;
     margin-bottom:10px;
 }
 
 .card-title{
-    font-size:1.8rem;
-    margin-bottom:10px;
+    font-size:2rem;
+    margin-bottom:12px;
 }
 
 .card-note{
-    line-height:1.8;
     opacity:.8;
+    line-height:1.8;
+}
+
+.quote-footer{
+    text-align:center;
+    margin-top:80px;
+    font-size:1.5rem;
+    line-height:1.8;
+}
+
+.footer{
+    text-align:center;
+    margin-top:80px;
+    font-family:'Bebas Neue',sans-serif;
+    letter-spacing:4px;
+    opacity:.3;
+}
+
+@media(max-width:768px){
+
+    .container{
+        width:90%;
+        padding:70px 0;
+    }
+
+    h1{
+        font-size:3rem;
+    }
+
+    .card img{
+        height:220px;
+    }
+
 }
 
 </style>
@@ -148,65 +140,44 @@ h1{
     </div>
 
     <div class="intro">
-        Una colección de cosas que decidí conservar este mes.
+        Música, lecturas, imágenes, objetos e ideas que decidí conservar.
     </div>
-
-    <div class="divider"></div>
 
     <div class="card">
-
-    <div class="card-type">
-        ALBUM
+        https://placehold.co/800x500
+        <div class="card-content">
+            <div class="card-type">ALBUM</div>
+            <div class="card-title">Título del álbum</div>
+            <div class="card-note">
+                Tu nota personal.
+            </div>
+        </div>
     </div>
 
-    <div class="card-title">
-        In Rainbows
+    <div class="card">
+        https://placehold.co/800x500
+        <div class="card-content">
+            <div class="card-type">ARTICLE</div>
+            <div class="card-title">Título del artículo</div>
+            <div class="card-note">
+                Tu nota personal.
+            </div>
+        </div>
     </div>
 
-    <div class="card-note">
-        Un álbum al que siempre regreso.
+    <div class="card">
+        https://placehold.co/800x500
+        <div class="card-content">
+            <div class="card-type">QUOTE</div>
+            <div class="card-title">
+                "Tu cita favorita"
+            </div>
+            <div class="card-note">
+                Tu nota personal.
+            </div>
+        </div>
     </div>
 
-</div>
-
-    <div class="type">ARTICLE</div>
-    <div class="title">Título del artículo</div>
-    <div class="note">Tu nota personal.</div>
-
-    <div class="divider"></div>
-
-    <div class="type">QUOTE</div>
-    <div class="title">"Tu cita favorita"</div>
-    <div class="note">Tu nota personal.</div>
-
-    <div class="divider"></div>
-
-    <div class="type">FILM</div>
-    <div class="title">Título de la película</div>
-    <div class="note">Tu nota personal.</div>
-
-    <div class="divider"></div>
-
-    <div class="type">PHOTO</div>
-    <div class="title">Fotografía</div>
-    <div class="note">Tu nota personal.</div>
-
-    <div class="divider"></div>
-
-    <div class="type">OBJECT</div>
-    <div class="title">Objeto</div>
-    <div class="note">Tu nota personal.</div>
-
-    <div class="quote">
-        Entre el ruido,<br>
-        las cosas que permanecen.
-    </div>
-
-    <div class="footer">
-        SPACE BLUE
-    </div>
-
-</div>
-
-</body>
-</html>
+    <div class="card">
+        https://placehold.co/800x500
+        <div 
