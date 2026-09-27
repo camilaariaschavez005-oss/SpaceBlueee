@@ -1,102 +1,104 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Space Blue</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-        }
+<title>Space Blue</title>
 
-        body{
-            min-height:100vh;
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            background:#061326;
-            color:white;
-            text-align:center;
-            font-family:Georgia, serif;
-        }
+<style>
 
-        .container{
-            max-width:900px;
-            padding:40px;
-        }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-        h1{
-            font-size:8rem;
-            font-weight:300;
-            letter-spacing:12px;
-            margin-bottom:60px;
-        }
+body{
+    background:#05152d;
+    color:white;
+    min-height:100vh;
 
-        .tagline{
-            font-size:2rem;
-            line-height:1.6;
-            margin-bottom:15px;
-        }
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
-        .subtitle{
-            font-size:1.1rem;
-            opacity:.7;
-            margin-bottom:50px;
-        }
+    text-align:center;
 
-        .journal-btn{
-            display:inline-block;
-            padding:14px 32px;
-            border:1px solid rgba(255,255,255,.4);
-            border-radius:999px;
-            color:white;
-            text-decoration:none;
-            transition:.3s;
-        }
+    font-family:Georgia, serif;
+}
 
-        .journal-btn:hover{
-            background:white;
-            color:#061326;
-        }
+.container{
+    max-width:900px;
+    padding:40px;
+}
 
-        @media (max-width:768px){
+h1{
+    font-size:6rem;
+    font-weight:300;
+    letter-spacing:12px;
+    margin-bottom:60px;
+    white-space:nowrap;
+}
 
-            h1{
-                font-size:4rem;
-                letter-spacing:6px;
-            }
+.tagline{
+    font-size:2rem;
+    line-height:1.7;
+    margin-bottom:15px;
+}
 
-            .tagline{
-                font-size:1.3rem;
-            }
-        }
+.subtitle{
+    font-size:1.1rem;
+    opacity:.7;
+    margin-bottom:50px;
+}
 
-    </style>
+.journal-text{
+    margin-top:40px;
+    font-size:0.9rem;
+    letter-spacing:6px;
+    opacity:.55;
+    text-transform:uppercase;
+}
+
+@media (max-width:768px){
+
+    h1{
+        font-size:3rem;
+        letter-spacing:6px;
+        white-space:normal;
+    }
+
+    .tagline{
+        font-size:1.3rem;
+    }
+
+}
+
+</style>
+
 </head>
 
 <body>
 
-    <div class="container">
+<div class="container">
 
-        <h1>SPACE BLUE</h1>
+    <h1>SPACE BLUE</h1>
 
-        <p class="tagline">
-            Entre el ruido,<br>
-            las cosas que permanecen.
-        </p>
+    <p class="tagline">
+        Entre el ruido,<br>
+        las cosas que permanecen.
+    </p>
 
-        <p class="subtitle">
-            Para volver a lo que importa.
-        </p>
+    <p class="subtitle">
+        Para volver a lo que importa.
+    </p>
 
-        journal.html
-            Entrar al Journal →
-        </a>
+    <p class="journal-text">
+        JOURNAL 001
+    </p>
 
-    </div>
+</div>
 
 </body>
 </html>
